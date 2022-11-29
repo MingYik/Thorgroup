@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18029E1A29362B0C00E4D66C /* libFHBlueTooth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18029E1829362B0C00E4D66C /* libFHBlueTooth.a */; };
+		18029E1B29362B0C00E4D66C /* FHBlueTooth.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 18029E1929362B0C00E4D66C /* FHBlueTooth.swiftmodule */; };
+		18B3EB4F291B938B000401FD /* VGTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3EB48291B938B000401FD /* VGTabBarItem.swift */; };
+		18B3EB50291B938B000401FD /* VGTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3EB49291B938B000401FD /* VGTabBarItemContainer.swift */; };
+		18B3EB51291B938B000401FD /* VGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3EB4A291B938B000401FD /* VGTabBarController.swift */; };
+		18B3EB52291B938B000401FD /* VGTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3EB4B291B938B000401FD /* VGTabBar.swift */; };
+		18B3EB53291B938B000401FD /* VGTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3EB4C291B938B000401FD /* VGTabBarItemMoreContentView.swift */; };
+		18B3EB54291B938B000401FD /* VGTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3EB4D291B938B000401FD /* VGTabBarItemContentView.swift */; };
+		18B3EB55291B938B000401FD /* VGTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3EB4E291B938B000401FD /* VGTabBarItemBadgeView.swift */; };
+		18B3EB5A291B990F000401FD /* VGBaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3EB59291B990F000401FD /* VGBaseTabBarVC.swift */; };
+		18CF33BF28E5A33B00F6EA6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF33BE28E5A33B00F6EA6C /* AppDelegate.swift */; };
+		18CF33C828E5A33C00F6EA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CF33C728E5A33C00F6EA6C /* Assets.xcassets */; };
+		18CF33CB28E5A33C00F6EA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CF33C928E5A33C00F6EA6C /* LaunchScreen.storyboard */; };
+		18CF33E328E6E87500F6EA6C /* AppLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CF33E128E6E87500F6EA6C /* AppLogo.png */; };
+		18CF33E428E6E87500F6EA6C /* referral.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18CF33E228E6E87500F6EA6C /* referral.gif */; };
+		18CF33EA28E6EBDC00F6EA6C /* VGBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF33E628E6EBDC00F6EA6C /* VGBaseController.swift */; };
+		18CF33EB28E6EBDC00F6EA6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF33E728E6EBDC00F6EA6C /* ViewController.swift */; };
+		18CF33EC28E6EBDC00F6EA6C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF33E828E6EBDC00F6EA6C /* ProfileViewController.swift */; };
+		18CF33ED28E6EBDC00F6EA6C /* VGPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF33E928E6EBDC00F6EA6C /* VGPageVC.swift */; };
+		18CF33F028E6EC6C00F6EA6C /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF33EE28E6EC6C00F6EA6C /* UIColor+Utils.swift */; };
+		18CF33F128E6EC6C00F6EA6C /* VGFullscreenPopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF33EF28E6EC6C00F6EA6C /* VGFullscreenPopGesture.swift */; };
+		925C15020A51197B8EFE99E8 /* libPods-Thorgroup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B0E6734D53B2BD4E55E6BD /* libPods-Thorgroup.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18029E1829362B0C00E4D66C /* libFHBlueTooth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFHBlueTooth.a; sourceTree = "<group>"; };
+		18029E1929362B0C00E4D66C /* FHBlueTooth.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FHBlueTooth.swiftmodule; sourceTree = "<group>"; };
+		18B3EB48291B938B000401FD /* VGTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGTabBarItem.swift; sourceTree = "<group>"; };
+		18B3EB49291B938B000401FD /* VGTabBarItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGTabBarItemContainer.swift; sourceTree = "<group>"; };
+		18B3EB4A291B938B000401FD /* VGTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGTabBarController.swift; sourceTree = "<group>"; };
+		18B3EB4B291B938B000401FD /* VGTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGTabBar.swift; sourceTree = "<group>"; };
+		18B3EB4C291B938B000401FD /* VGTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		18B3EB4D291B938B000401FD /* VGTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGTabBarItemContentView.swift; sourceTree = "<group>"; };
+		18B3EB4E291B938B000401FD /* VGTabBarItemBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		18B3EB59291B990F000401FD /* VGBaseTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGBaseTabBarVC.swift; sourceTree = "<group>"; };
+		18CF33BB28E5A33B00F6EA6C /* Thorgroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thorgroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF33BE28E5A33B00F6EA6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CF33C728E5A33C00F6EA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CF33CA28E5A33C00F6EA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CF33CC28E5A33C00F6EA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CF33E128E6E87500F6EA6C /* AppLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppLogo.png; sourceTree = "<group>"; };
+		18CF33E228E6E87500F6EA6C /* referral.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = referral.gif; sourceTree = "<group>"; };
+		18CF33E628E6EBDC00F6EA6C /* VGBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGBaseController.swift; sourceTree = "<group>"; };
+		18CF33E728E6EBDC00F6EA6C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18CF33E828E6EBDC00F6EA6C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		18CF33E928E6EBDC00F6EA6C /* VGPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGPageVC.swift; sourceTree = "<group>"; };
+		18CF33EE28E6EC6C00F6EA6C /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		18CF33EF28E6EC6C00F6EA6C /* VGFullscreenPopGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGFullscreenPopGesture.swift; sourceTree = "<group>"; };
+		2E3998645B815AF4E8CABFD0 /* Pods-Thorgroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thorgroup.release.xcconfig"; path = "Target Support Files/Pods-Thorgroup/Pods-Thorgroup.release.xcconfig"; sourceTree = "<group>"; };
+		80D88F30AB87A4573024DFEC /* Pods-Thorgroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thorgroup.debug.xcconfig"; path = "Target Support Files/Pods-Thorgroup/Pods-Thorgroup.debug.xcconfig"; sourceTree = "<group>"; };
+		F5B0E6734D53B2BD4E55E6BD /* libPods-Thorgroup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Thorgroup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CF33B828E5A33B00F6EA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18029E1A29362B0C00E4D66C /* libFHBlueTooth.a in Frameworks */,
+				925C15020A51197B8EFE99E8 /* libPods-Thorgroup.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189C6A01293611D4008EE1BC /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				18029E1929362B0C00E4D66C /* FHBlueTooth.swiftmodule */,
+				18029E1829362B0C00E4D66C /* libFHBlueTooth.a */,
+			);
+			path = BlueTooth;
+			sourceTree = "<group>";
+		};
+		18B3EB35291B9118000401FD /* Launching */ = {
+			isa = PBXGroup;
+			children = (
+				18B3EB56291B93DA000401FD /* Controller */,
+			);
+			path = Launching;
+			sourceTree = "<group>";
+		};
+		18B3EB56291B93DA000401FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B3EB59291B990F000401FD /* VGBaseTabBarVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18B3EB57291B93F0000401FD /* FuncBase */ = {
+			isa = PBXGroup;
+			children = (
+				18B3EB58291B9414000401FD /* VGTabBar */,
+			);
+			path = FuncBase;
+			sourceTree = "<group>";
+		};
+		18B3EB58291B9414000401FD /* VGTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				18B3EB4B291B938B000401FD /* VGTabBar.swift */,
+				18B3EB48291B938B000401FD /* VGTabBarItem.swift */,
+				18B3EB4A291B938B000401FD /* VGTabBarController.swift */,
+				18B3EB49291B938B000401FD /* VGTabBarItemContainer.swift */,
+				18B3EB4E291B938B000401FD /* VGTabBarItemBadgeView.swift */,
+				18B3EB4D291B938B000401FD /* VGTabBarItemContentView.swift */,
+				18B3EB4C291B938B000401FD /* VGTabBarItemMoreContentView.swift */,
+			);
+			path = VGTabBar;
+			sourceTree = "<group>";
+		};
+		18CF33B228E5A33B00F6EA6C = {
+			isa = PBXGroup;
+			children = (
+				18CF33BD28E5A33B00F6EA6C /* Thorgroup */,
+				18CF33BC28E5A33B00F6EA6C /* Products */,
+				CD18D1C17AC061550CB8033B /* Pods */,
+				22B4E62A1B08DC6B703942F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18CF33BC28E5A33B00F6EA6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CF33BB28E5A33B00F6EA6C /* Thorgroup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CF33BD28E5A33B00F6EA6C /* Thorgroup */ = {
+			isa = PBXGroup;
+			children = (
+				18CF33E828E6EBDC00F6EA6C /* ProfileViewController.swift */,
+				18CF33E628E6EBDC00F6EA6C /* VGBaseController.swift */,
+				18CF33E928E6EBDC00F6EA6C /* VGPageVC.swift */,
+				18CF33E728E6EBDC00F6EA6C /* ViewController.swift */,
+				18CF33BE28E5A33B00F6EA6C /* AppDelegate.swift */,
+				18CF33EE28E6EC6C00F6EA6C /* UIColor+Utils.swift */,
+				18CF33EF28E6EC6C00F6EA6C /* VGFullscreenPopGesture.swift */,
+				189C6A01293611D4008EE1BC /* BlueTooth */,
+				18B3EB57291B93F0000401FD /* FuncBase */,
+				18B3EB35291B9118000401FD /* Launching */,
+				18CF33DE28E6E7F200F6EA6C /* Resource */,
+			);
+			path = Thorgroup;
+			sourceTree = "<group>";
+		};
+		18CF33DE28E6E7F200F6EA6C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18CF33E028E6E85B00F6EA6C /* Images */,
+				18CF33E528E6E88300F6EA6C /* Manifest */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		18CF33E028E6E85B00F6EA6C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				18CF33E128E6E87500F6EA6C /* AppLogo.png */,
+				18CF33E228E6E87500F6EA6C /* referral.gif */,
+				18CF33C728E5A33C00F6EA6C /* Assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		18CF33E528E6E88300F6EA6C /* Manifest */ = {
+			isa = PBXGroup;
+			children = (
+				18CF33C928E5A33C00F6EA6C /* LaunchScreen.storyboard */,
+				18CF33CC28E5A33C00F6EA6C /* Info.plist */,
+			);
+			name = Manifest;
+			sourceTree = "<group>";
+		};
+		22B4E62A1B08DC6B703942F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B0E6734D53B2BD4E55E6BD /* libPods-Thorgroup.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD18D1C17AC061550CB8033B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80D88F30AB87A4573024DFEC /* Pods-Thorgroup.debug.xcconfig */,
+				2E3998645B815AF4E8CABFD0 /* Pods-Thorgroup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CF33BA28E5A33B00F6EA6C /* Thorgroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CF33CF28E5A33C00F6EA6C /* Build configuration list for PBXNativeTarget "Thorgroup" */;
+			buildPhases = (
+				6252414368FF68B044BD5703 /* [CP] Check Pods Manifest.lock */,
+				18CF33B728E5A33B00F6EA6C /* Sources */,
+				18CF33B828E5A33B00F6EA6C /* Frameworks */,
+				18CF33B928E5A33B00F6EA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thorgroup;
+			productName = Thorgroup;
+			productReference = 18CF33BB28E5A33B00F6EA6C /* Thorgroup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CF33B328E5A33B00F6EA6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					18CF33BA28E5A33B00F6EA6C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 18CF33B628E5A33B00F6EA6C /* Build configuration list for PBXProject "Thorgroup" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CF33B228E5A33B00F6EA6C;
+			productRefGroup = 18CF33BC28E5A33B00F6EA6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CF33BA28E5A33B00F6EA6C /* Thorgroup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CF33B928E5A33B00F6EA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CF33CB28E5A33C00F6EA6C /* LaunchScreen.storyboard in Resources */,
+				18CF33E328E6E87500F6EA6C /* AppLogo.png in Resources */,
+				18CF33C828E5A33C00F6EA6C /* Assets.xcassets in Resources */,
+				18029E1B29362B0C00E4D66C /* FHBlueTooth.swiftmodule in Resources */,
+				18CF33E428E6E87500F6EA6C /* referral.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6252414368FF68B044BD5703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thorgroup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CF33B728E5A33B00F6EA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CF33EB28E6EBDC00F6EA6C /* ViewController.swift in Sources */,
+				18CF33ED28E6EBDC00F6EA6C /* VGPageVC.swift in Sources */,
+				18CF33F128E6EC6C00F6EA6C /* VGFullscreenPopGesture.swift in Sources */,
+				18B3EB53291B938B000401FD /* VGTabBarItemMoreContentView.swift in Sources */,
+				18CF33BF28E5A33B00F6EA6C /* AppDelegate.swift in Sources */,
+				18B3EB51291B938B000401FD /* VGTabBarController.swift in Sources */,
+				18B3EB50291B938B000401FD /* VGTabBarItemContainer.swift in Sources */,
+				18B3EB54291B938B000401FD /* VGTabBarItemContentView.swift in Sources */,
+				18CF33F028E6EC6C00F6EA6C /* UIColor+Utils.swift in Sources */,
+				18B3EB4F291B938B000401FD /* VGTabBarItem.swift in Sources */,
+				18B3EB55291B938B000401FD /* VGTabBarItemBadgeView.swift in Sources */,
+				18CF33EC28E6EBDC00F6EA6C /* ProfileViewController.swift in Sources */,
+				18B3EB5A291B990F000401FD /* VGBaseTabBarVC.swift in Sources */,
+				18CF33EA28E6EBDC00F6EA6C /* VGBaseController.swift in Sources */,
+				18B3EB52291B938B000401FD /* VGTabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18CF33C928E5A33C00F6EA6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CF33CA28E5A33C00F6EA6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CF33CD28E5A33C00F6EA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CF33CE28E5A33C00F6EA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CF33D028E5A33C00F6EA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D88F30AB87A4573024DFEC /* Pods-Thorgroup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 924ADUL3U3;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thorgroup/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Voghion;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Thorgroup/BlueTooth",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voghion.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = voghion_dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(inherited) \"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\" \"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift\" \"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher\" \"${PODS_CONFIGURATION_BUILD_DIR}/KingfisherWebP\" \"${PODS_CONFIGURATION_BUILD_DIR}/Moya\" \"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa\" \"${PODS_CONFIGURATION_BUILD_DIR}/RxRelay\" \"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift\" \"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\" \"${PODS_CONFIGURATION_BUILD_DIR}/SwipeCellKit\" $(PROJECT_DIR)/Thorgroup/BlueTooth";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18CF33D128E5A33C00F6EA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3998645B815AF4E8CABFD0 /* Pods-Thorgroup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 924ADUL3U3;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thorgroup/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Voghion;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Thorgroup/BlueTooth",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voghion.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = voghion_appstore;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(inherited) \"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\" \"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift\" \"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher\" \"${PODS_CONFIGURATION_BUILD_DIR}/KingfisherWebP\" \"${PODS_CONFIGURATION_BUILD_DIR}/Moya\" \"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa\" \"${PODS_CONFIGURATION_BUILD_DIR}/RxRelay\" \"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift\" \"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\" \"${PODS_CONFIGURATION_BUILD_DIR}/SwipeCellKit\" $(PROJECT_DIR)/Thorgroup/BlueTooth";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CF33B628E5A33B00F6EA6C /* Build configuration list for PBXProject "Thorgroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF33CD28E5A33C00F6EA6C /* Debug */,
+				18CF33CE28E5A33C00F6EA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CF33CF28E5A33C00F6EA6C /* Build configuration list for PBXNativeTarget "Thorgroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF33D028E5A33C00F6EA6C /* Debug */,
+				18CF33D128E5A33C00F6EA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CF33B328E5A33B00F6EA6C /* Project object */;
+}
